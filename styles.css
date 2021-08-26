@@ -1,0 +1,33 @@
+body {
+    margin: 40px;
+    background-color: lightblue;
+}
+
+#navbar {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: left;
+    position:fixed;
+}
+code {
+    display: block;
+    text-align: left;
+    position: relative;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+li  {
+    background-color: #f7f7f7;
+    padding: 2.5px;
+}
+
+#navbar > header {
+    font-family: Monospace;
+    color:rgb(70,70,70);
+}
