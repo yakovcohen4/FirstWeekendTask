@@ -1,16 +1,26 @@
-body {
-    margin: 40px;
-    background-color: lightblue;
-}
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }
+  
 
+    body {
+        margin: 100px;
+        background-color: lightblue;
+        padding: 125px;
+    }
+
+.main-section{
+    display: block;
+    background-color: #f0b800;
+    padding: 10px;
+    margin: 20px;
+}
 #navbar {
     float: left;
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    text-align: left;
     position:fixed;
+    background-color: #6dcdeb;
 }
 code {
     display: block;
@@ -18,16 +28,20 @@ code {
     position: relative;
     line-height: 2;
     background-color: #f7f7f7;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-  }
+    padding: 5px;
+    margin: 5px,5px,5px,5px;
+}
 li  {
+    display: block;
     background-color: #f7f7f7;
-    padding: 2.5px;
+    padding:2.5px;
 }
 
 #navbar > header {
     font-family: Monospace;
     color:rgb(70,70,70);
 }
+a:hover {
+    background-color: rgb(255, 0, 0);
+}
+
